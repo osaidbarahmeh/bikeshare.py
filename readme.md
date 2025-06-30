@@ -39,9 +39,29 @@ The program will then display:
 - Trip duration statistics 
 - User demographics
 
+
+## Know Issues
+
+- Program currently only supports CSV files with specific column names
+- Limited to data from January to June
+- Input balidation accept only lowercase city names
+
+
+
 ## Author
 
 **Osaid barahmeh**
 An-Najah National University
 Department of Management Information system 
+
+## acknowledgments
+
+Special thanks to:
+
+- Udacity for the project idea and daraset structure 
+- Stack overflow and python documentation 
+- Everyone who contributed expamles and tutorials on bikeshare analysis 
+
+## License
+© 2025 Osayd Barahmeh. All rights reserved.
 
