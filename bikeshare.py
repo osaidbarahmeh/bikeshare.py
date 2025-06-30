@@ -9,10 +9,10 @@ CITY_DATA = {
 }
 
 def get_filters():
-    print(" Let explore some US bikeshare data!")
+    print(" Let explore some US bikeshare data")
 
     while True:
-        city = input("Please choose a city (chicago, new york city, washington): ").lower()
+        city = input(" choose a city (chicago, new york city, washington): ").lower()
         if city in CITY_DATA:
             break
         else:
