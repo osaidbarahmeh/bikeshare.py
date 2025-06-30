@@ -24,7 +24,7 @@ def get_filters():
         if month in months:
              break
         else:
-             print("Invalid month. Please try again.")
+             print("Invalid month.should be try again.")
 
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
     while True:
@@ -32,7 +32,7 @@ def get_filters():
         if day in days:
             break
         else:
-            print("Invalid day. Please try again.")
+            print("Invalid day.please try again.")
 
 
 
