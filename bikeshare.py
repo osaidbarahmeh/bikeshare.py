@@ -12,11 +12,11 @@ def get_filters():
     print(" Let explore some US bikeshare data")
 
     while True:
-        city = input(" choose a city (chicago, new york city, washington): ").lower()
+        city = input(" let a city (chicago, new york city, washington): ").lower()
         if city in CITY_DATA:
             break
         else:
-             print("Invalid city. Please try again.")
+             print("Oops!, Invalid city. Please try again.")
 
     months = ['january', 'february', 'march', 'april', 'may', 'junne', 'all']
     while True:
